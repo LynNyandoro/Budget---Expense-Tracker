@@ -17,12 +17,14 @@ The application is fully configured for deployment on Render (backend) and Verce
 Set these environment variables in your Render service:
 
 ```
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/budget-tracker?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.mongodb.net/budget-tracker?retryWrites=true&w=majority
 JWT_SECRET=your-super-secure-jwt-secret-key-here
 PORT=10000
 CLIENT_URL=https://your-frontend-url.vercel.app
 NODE_ENV=production
 ```
+
+**Note**: Replace `your-super-secure-jwt-secret-key-here` with a strong secret key for JWT tokens.
 
 ### 2. Render Configuration
 - **Build Command**: `npm install`
@@ -51,11 +53,13 @@ REACT_APP_API_URL=https://your-backend-name.onrender.com
 
 ## 🔄 Deployment Steps
 
-### Step 1: Prepare MongoDB Atlas
-1. Create a MongoDB Atlas cluster
-2. Create a database user
-3. Whitelist all IP addresses (0.0.0.0/0) for Render
-4. Get your connection string
+### Step 1: MongoDB Atlas Setup ✅
+Your MongoDB Atlas is already configured:
+- **Username**: `nyandorolyn_db_user`
+- **Password**: `6S6AnlT4un4lH9Sy`
+- **Connection String**: `mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.mongodb.net/budget-tracker?retryWrites=true&w=majority`
+
+**Important**: Make sure to whitelist all IP addresses (0.0.0.0/0) in your Atlas network access settings for Render deployment.
 
 ### Step 2: Deploy Backend to Render
 1. Connect your GitHub repository to Render
