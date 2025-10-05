@@ -10,7 +10,7 @@ const testCORS = () => {
     path: '/health',
     method: 'GET',
     headers: {
-      'Origin': 'https://budgetexpensetracker-5vpwk61y2-nyandorolyn-gmailcoms-projects.vercel.app',
+      'Origin': 'https://budgetexpensetracker.vercel.app',
       'Access-Control-Request-Method': 'GET',
       'Access-Control-Request-Headers': 'Content-Type'
     }
@@ -24,7 +24,7 @@ const testCORS = () => {
       const corsOrigin = res.headers['access-control-allow-origin'];
       console.log('\n🌐 CORS Origin:', corsOrigin);
       
-      const expectedOrigin = 'https://budgetexpensetracker-5vpwk61y2-nyandorolyn-gmailcoms-projects.vercel.app';
+      const expectedOrigin = 'https://budgetexpensetracker.vercel.app';
       
       if (corsOrigin === expectedOrigin) {
         console.log('✅ CORS is correctly configured!');
