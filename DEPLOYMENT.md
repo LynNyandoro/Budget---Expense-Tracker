@@ -17,7 +17,7 @@ The application is fully configured for deployment on Render (backend) and Verce
 Set these environment variables in your Render service:
 
 ```
-MONGO_URI=mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.mongodb.net/budget-tracker?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.nxyyjls.mongodb.net/budget-tracker?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=your-super-secure-jwt-secret-key-here
 PORT=10000
 CLIENT_URL=https://your-frontend-url.vercel.app
@@ -57,7 +57,7 @@ REACT_APP_API_URL=https://your-backend-name.onrender.com
 Your MongoDB Atlas is already configured:
 - **Username**: `nyandorolyn_db_user`
 - **Password**: `6S6AnlT4un4lH9Sy`
-- **Connection String**: `mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.mongodb.net/budget-tracker?retryWrites=true&w=majority`
+- **Connection String**: `mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.nxyyjls.mongodb.net/budget-tracker?retryWrites=true&w=majority&appName=Cluster0`
 
 **Important**: Make sure to whitelist all IP addresses (0.0.0.0/0) in your Atlas network access settings for Render deployment.
 
