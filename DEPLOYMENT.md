@@ -20,7 +20,7 @@ Set these environment variables in your Render service:
 MONGO_URI=mongodb+srv://nyandorolyn_db_user:6S6AnlT4un4lH9Sy@cluster0.nxyyjls.mongodb.net/budget-tracker?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=your-super-secure-jwt-secret-key-here
 PORT=10000
-CLIENT_URL=https://budgetexpensetracker.vercel.app
+CLIENT_URL=https://budgetexpensetracker-5vpwk61y2-nyandorolyn-gmailcoms-projects.vercel.app
 NODE_ENV=production
 ```
 
@@ -105,7 +105,7 @@ After frontend deployment, update the backend's `CLIENT_URL` environment variabl
 
 ## 🔗 URLs After Deployment
 
-- **Frontend**: `https://budgetexpensetracker.vercel.app`
+- **Frontend**: `https://budgetexpensetracker-5vpwk61y2-nyandorolyn-gmailcoms-projects.vercel.app`
 - **Backend**: `https://budget-expense-tracker-rtel.onrender.com`
 - **Health Check**: `https://budget-expense-tracker-rtel.onrender.com/health`
 
