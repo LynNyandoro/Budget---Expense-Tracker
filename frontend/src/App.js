@@ -12,21 +12,55 @@ import TransactionList from './pages/TransactionList';
 const theme = extendTheme({
   colors: {
     brand: {
-      50: '#e6f7ff',
-      100: '#bae7ff',
-      200: '#91d5ff',
-      300: '#69c0ff',
-      400: '#40a9ff',
-      500: '#1890ff',
-      600: '#096dd9',
-      700: '#0050b3',
-      800: '#003a8c',
-      900: '#002766',
+      // Green colors for money and growth
+      50: '#f0fff4',
+      100: '#c6f6d5',
+      200: '#9ae6b4',
+      300: '#68d391',
+      400: '#48bb78',
+      500: '#38a169', // Primary green
+      600: '#2f855a',
+      700: '#276749',
+      800: '#22543d',
+      900: '#1a365d',
+    },
+    money: {
+      // Green for growth and income
+      50: '#f0fff4',
+      100: '#c6f6d5',
+      200: '#9ae6b4',
+      300: '#68d391',
+      400: '#48bb78',
+      500: '#38a169',
+      600: '#2f855a',
+      700: '#276749',
+      800: '#22543d',
+      900: '#1a365d',
+    },
+    wealth: {
+      // Blue for trust and stability
+      50: '#ebf8ff',
+      100: '#bee3f8',
+      200: '#90cdf4',
+      300: '#63b3ed',
+      400: '#4299e1',
+      500: '#3182ce',
+      600: '#2c5282',
+      700: '#2a4365',
+      800: '#1a365d',
+      900: '#1a202c',
     },
   },
   fonts: {
     heading: 'Inter, sans-serif',
     body: 'Inter, sans-serif',
+  },
+  styles: {
+    global: {
+      body: {
+        bg: 'gray.50',
+      },
+    },
   },
 });
 

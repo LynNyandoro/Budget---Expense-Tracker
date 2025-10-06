@@ -58,7 +58,7 @@ const Navbar = () => {
         <HStack spacing={8} alignItems={'center'}>
           <Box>
             <Text fontSize="xl" fontWeight="bold" color="brand.500">
-              Budget Tracker
+              💰 Budget Tracker
             </Text>
           </Box>
           <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>

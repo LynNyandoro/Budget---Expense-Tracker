@@ -65,7 +65,7 @@ const Login = () => {
           <VStack spacing={4} align="stretch">
             <Box textAlign="center">
               <Heading size="lg" color="brand.500">
-                Budget Tracker
+                💰 Budget Tracker
               </Heading>
               <Text fontSize="lg" color="gray.600">
                 Sign in to your account
@@ -96,10 +96,14 @@ const Login = () => {
 
                 <Button
                   type="submit"
-                  colorScheme="blue"
+                  bg="brand.500"
+                  color="white"
                   width="full"
                   isLoading={loading}
                   loadingText="Signing in..."
+                  _hover={{
+                    bg: 'brand.600',
+                  }}
                 >
                   Sign In
                 </Button>

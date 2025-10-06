@@ -66,7 +66,7 @@ const Signup = () => {
           <VStack spacing={4} align="stretch">
             <Box textAlign="center">
               <Heading size="lg" color="brand.500">
-                Budget Tracker
+                💰 Budget Tracker
               </Heading>
               <Text fontSize="lg" color="gray.600">
                 Create your account
